@@ -1,6 +1,7 @@
 HPE Software Field Guerilla CSA External Pricing Server (EPS)
 Ben Coleman - ben.coleman@hpe.com
 Stefan Berreth - sb@hpe.com
+2015.11.5
 
 EPS protocol spec are on the HPE internal RnD wiki. Ask Ben or Stefan to get them.
 
@@ -10,8 +11,8 @@ Get Node.js from https://nodejs.org/ and install and configure it.
 Start the server with: node pricing_srv.js
 
 You'll see the output:
-Starting Pricing Tinker Server
-Server running on 8080
+  Starting Pricing Tinker Server
+  Server running on 8080
 
 And the server will start listening on localhost:8080
 Verify by pointing the browser at it: http://localhost:8080 
