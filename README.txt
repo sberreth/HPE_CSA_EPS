@@ -33,8 +33,5 @@ by sending the contents of ./templates/987654321.json .
 Useful tools:
 JSON validator: https://jsonformatter.curiousconcept.com
 
-.
-
-
 
 
