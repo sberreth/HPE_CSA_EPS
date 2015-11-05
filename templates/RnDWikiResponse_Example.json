@@ -1,0 +1,54 @@
+{
+  "protocol-version": 1,
+  "price-system-properties": {
+    "price-list-id": "21321"
+  },
+  "currency": "USD",
+  "period": "month",
+  "base-price": {
+    "price-key": "simpleDesign.base-price",
+    "init-price": 20,
+    "recurring-price": 30,
+    "message": "Some message or description"
+  },
+  "message": "Some message or description",
+  "total-price": {
+    "init-price": 20,
+    "recurring-price": 30,
+    "message": "Some message or description"
+  },
+  "options": {
+    "<csa_id>": {
+      "price-key": "simpleDesign.cpu",
+      "init-price": {
+        "price": 5,
+        "unit-price": 1,
+        "type": "per-unit",
+        "message": "Some message or description"
+      },
+      "recurring-price": {
+        "price": 5,
+        "unit-price": 1,
+        "type": "per-unit",
+        "message": "Some message or description"
+      },
+      "selected" : true,
+      "value": "5",
+      "unit-measurement": "kB"
+    },
+    "<csa_id>": {
+      "price-key": "simpleDesign.OS.linux",
+      "init-price": {
+        "price": 5,
+        "type": "flat",
+        "message": "Some message or description"
+      },
+      "recurring-price": {
+        "price": 5,
+        "type": "flat",
+        "message": "Some message or description"
+      },
+      "selected" : true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "protocol-version": 1,
+  "price-system-properties": {
+    "price-list-id": "111"
+  },
+  "user": "user123",
+  "organization": "org1",
+  "catalog-name": "Simple System",
+  "requested-date": "2010-01-01T12:00:00.100Z",
+  "supported-periods": ["year", "month", "week", "day", "hour", "minute"],
+  "base-price-key": "987654321",
+  "options": {
+    "<csa_id>": {
+      "price-key": "simpleDesign.OS.linux",
+      "selected": true
+    },
+    "<csa_id>": {
+      "price-key": "simpleDesign.memory",
+      "value": "2048",
+      "unit-measurement" : "GB",
+      "selected": true
+    }
+  }
+}

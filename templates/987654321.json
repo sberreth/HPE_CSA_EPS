@@ -1,0 +1,40 @@
+{
+  "protocol-version": 1,
+  "price-system-properties": {
+    "price-list-id": "987654321"
+  },
+  "currency": "EUR",
+  "period": "month",
+  "base-price": {
+    "price-key": "987654321",
+    "init-price": 20,
+    "recurring-price": 30,
+    "message": "Base price for the 123456789 price key"
+  },
+  "message": "Some message or description",
+  "total-price": {
+    "init-price": 20,
+    "recurring-price": 30,
+    "message": "total price for price key 987654321"
+  },
+  "options": {
+    "882288228822882288_csa": {
+      "price-key": "987654321.memory",
+      "selected" : true,
+      "value": "10",
+      "unit-measurement": "MB",
+      "init-price": {
+          "price": 14,
+          "unit-price": 1,
+          "type": "per-unit",
+          "message": "Initial price for memory option"
+      },
+      "recurring-price": {
+        "price": 10,
+        "unit-price": 1,
+        "type": "per-unit",
+        "message": "Recurring price for memory option"
+      }
+    }
+  }
+}
