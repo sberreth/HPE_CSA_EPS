@@ -17,19 +17,23 @@ You'll see the output:
 And the server will start listening on localhost:8080
 Verify by pointing the browser at it: http://localhost:8080 
 
-Test request body JSON files examples are of the form request_body_<unique number>.json , with the 
-<unique number> equalliing the value for "base-price-key": in the JSON body in the file. This
-convention is purely to recognize a JSON body file with a given ID in the filename.
+Test request body JSON files examples are of the form request_body_<unique number>.json ,
+with the <unique number> equaling the value for "base-price-key": in the JSON body 
+in the file. This convention is purely to recognize a JSON body file with a given ID 
+in the filename.
   
 To send a request with body from file body.json to local server:
 curl -H "Content-Type: application/json" --data @request_body_987654321.json http://localhost:8080/
 
-and the server will reply with a JSON response. The response is read from the file of the name of
-the string in "base-price-key".json from the templates/ directory. I.e. if the request is containing
-"base-price-key": "987654321", the response will come by sending the contents of ./templates/987654321.json
+and the server will reply with a JSON response. The response is read from the file 
+of the name of the string in "base-price-key".json from the templates/ directory. 
+I.e. if the request is containing "base-price-key": "987654321", the response will come 
+by sending the contents of ./templates/987654321.json .
 
 Useful tools:
 JSON validator: https://jsonformatter.curiousconcept.com
+
+.
 
 
 
